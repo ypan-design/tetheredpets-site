@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tethered Pet | Follow One Rescue Dog's Story to a Home</title>
+<meta name="description" content="Tethered Pet features adoptable dogs from shelters and rescues, one at a time. Follow a dog's story, then adopt directly through the rescue that cares for them.">
+<link rel="canonical" href="https://tetheredpets.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tethered Pet | Follow one rescue dog's story to a home">
+<meta property="og:description" content="Adoptable dogs from shelters and rescues, featured one at a time. Adoption happens directly with the rescue.">
+<meta property="og:url" content="https://tetheredpets.com/">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#2C6A93">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232C6A93'/%3E%3Cpath fill='%23C8743A' d='M8 10h16v14H8z'/%3E%3Cpath fill='%23141018' d='M8 7h4v4H8zM20 7h4v4h-4zM12 15h2v2h-2zM18 15h2v2h-2zM15 19h2v2h-2z'/%3E%3Cpath fill='%23FF4D8A' d='M6 23h20v3H6z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800&family=Silkscreen&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Tethered Pet","url":"https://tetheredpets.com/","email":"ypan@tetheredpets.com","telephone":"+1-818-445-1984","founder":{"@type":"Person","name":"Yifu Pan"},"address":{"@type":"PostalAddress","streetAddress":"177 N Primrose Ave","addressLocality":"Monrovia","addressRegion":"CA","postalCode":"91016","addressCountry":"US"},"description":"Tethered Pet features adoptable rescue dogs one at a time. Every adoption is handled directly by the shelter or rescue."}
+</script>
+<style>
+:root{--ink:#1B2440;--cream:#FFF7EC;--sun:#FFE27A;--coral:#E3572B;--pink:#FF4D8A;--navy:#07091A;--mint:#7CF3C8;--sky:#2C6A93;--line:rgba(27,36,64,.12)}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Nunito',system-ui,sans-serif;color:var(--ink);background:var(--cream);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+.wrap{width:min(1160px,100% - 48px);margin-inline:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+/* nav */
+.nav{position:sticky;top:0;z-index:40;background:rgba(44,106,147,.94);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:#fff}
+.nav-in{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand svg{filter:drop-shadow(0 0 6px rgba(255,77,138,.55))}
+.wordmark{font-family:'Silkscreen',monospace;font-size:15px;letter-spacing:.02em;color:#fff;line-height:1}
+.wordmark span{color:var(--pink)}
+.menu{display:flex;gap:6px;padding:5px;border-radius:999px;background:rgba(255,255,255,.12)}
+.pill{font-family:'Fredoka',sans-serif;font-weight:600;font-size:13px;letter-spacing:.06em;color:#fff;border-radius:999px;padding:10px 16px;text-decoration:none;white-space:nowrap}
+.pill:hover{background:rgba(255,255,255,.22)}
+.btn{font-family:'Fredoka',sans-serif;font-weight:600;letter-spacing:.04em;font-size:15px;border:0;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;padding:15px 24px}
+.btn-dark{background:var(--ink);color:#fff}.btn-dark:hover{background:#2A3660}
+.btn-sun{background:var(--sun);color:var(--ink)}.btn-sun:hover{background:#FFD43B}
+.btn-ghost{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4)}.btn-ghost:hover{background:rgba(255,255,255,.26)}
+.btn-sm{padding:11px 18px;font-size:13px}
+/* hero */
+.hero{position:relative;overflow:hidden;color:#fff;background:radial-gradient(ellipse 70% 75% at 50% 58%,#64A8C3 0%,#4F98BE 45%,#2C6A93 100%)}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:32px;align-items:center;padding:56px 0 64px}
+.hero-grid>*{min-width:0}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:'Fredoka',sans-serif;font-weight:600;font-size:13px;letter-spacing:.09em}
+.tick{width:22px;height:22px;border-radius:999px;background:var(--sun);display:grid;place-items:center;flex:none}
+h1{margin:18px 0 0;font-family:'Fredoka',sans-serif;font-weight:700;font-size:clamp(42px,6.4vw,88px);line-height:.95;letter-spacing:-.01em;text-shadow:0 6px 30px rgba(20,50,80,.25)}
+.hero-p{margin:20px 0 0;font-size:clamp(16px,1.4vw,19px);line-height:1.6;font-weight:700;color:rgba(255,255,255,.92);max-width:44ch}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.stage{display:flex;flex-direction:column;align-items:center;gap:22px}
+.pup{width:min(300px,70vw);aspect-ratio:1;animation:breathe 4.5s ease-in-out infinite;transform-origin:50% 90%;filter:drop-shadow(0 18px 30px rgba(20,50,80,.3))}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
+.zipwrap{width:min(420px,100%);display:flex;flex-direction:column;gap:10px}
+.zip-kicker{font-family:'Fredoka',sans-serif;font-size:13px;font-weight:600;letter-spacing:.1em;color:rgba(255,255,255,.9);text-align:center}
+.zipbar{display:flex;align-items:center;gap:10px;background:#fff;border-radius:999px;padding:6px 6px 6px 18px;box-shadow:0 10px 30px rgba(20,50,80,.2)}
+.zipbar input{font:700 16px 'Nunito',sans-serif;color:var(--ink);background:transparent;border:0;outline:none;flex:1;min-width:0;letter-spacing:.06em}
+.zipbar input::placeholder{color:rgba(27,36,64,.45);letter-spacing:.02em}
+.zip-res{background:#fff;color:var(--ink);border-radius:20px;padding:16px 18px;font-size:14.5px;line-height:1.55;font-weight:700;box-shadow:0 20px 50px rgba(20,50,80,.25);animation:fadein .3s ease-out}
+.zip-res a{color:var(--coral)}
+.zip-err{font-size:13px;font-weight:700;background:rgba(180,50,40,.85);padding:6px 14px;border-radius:999px;align-self:center}
+@keyframes fadein{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+/* sections */
+section{padding:clamp(56px,7vw,100px) 0}
+.kicker{font-family:'Silkscreen',monospace;font-size:12px;letter-spacing:.08em;color:var(--coral)}
+h2{margin:14px 0 0;font-family:'Fredoka',sans-serif;font-weight:700;font-size:clamp(30px,4vw,46px);line-height:1.06;letter-spacing:-.01em}
+.lede{margin:16px 0 0;font-size:17px;line-height:1.65;font-weight:700;color:rgba(27,36,64,.72);max-width:60ch}
+.note{background:var(--sun);color:var(--ink)}
+.note .wrap{display:flex;gap:16px;align-items:center;padding:18px 0}
+.note p{margin:0;font-weight:700;line-height:1.5;font-size:15.5px}
+.note svg{flex:none}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:40px}
+.step{background:#fff;border-radius:24px;padding:28px;border:1px solid var(--line)}
+.step .n{font-family:'Silkscreen',monospace;font-size:13px;color:#fff;background:var(--ink);width:34px;height:34px;display:grid;place-items:center;border-radius:10px}
+.step h3{margin:18px 0 8px;font-family:'Fredoka',sans-serif;font-size:21px;font-weight:600}
+.step p{margin:0;font-size:15px;line-height:1.6;font-weight:700;color:rgba(27,36,64,.68)}
+.why{background:#F3EADC}
+.why-grid{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:center}
+.why-art{width:150px;height:150px;border-radius:32px;background:#fff;display:grid;place-items:center;border:1px solid var(--line)}
+.rescue{background:var(--navy);color:#fff}
+.rescue h2{color:#fff}
+.rescue .lede{color:rgba(255,255,255,.74)}
+.rescue-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:start}
+.perks{list-style:none;padding:0;margin:26px 0 0;display:flex;flex-direction:column;gap:13px}
+.perks li{display:flex;gap:12px;align-items:flex-start;font-size:15.5px;font-weight:700;color:rgba(255,255,255,.88);line-height:1.5}
+.perks svg{flex:none;margin-top:3px}
+.ask{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:24px;padding:clamp(22px,3vw,32px)}
+.ask h3{margin:10px 0 0;font-family:'Fredoka',sans-serif;font-size:22px;font-weight:600}
+.ask ol{margin:14px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:9px;font-size:15px;font-weight:700;line-height:1.5;color:rgba(255,255,255,.85)}
+.ask .btn{margin-top:22px;width:100%}
+.ask .alt{margin:14px 0 0;font-size:14px;font-weight:700;color:rgba(255,255,255,.65);text-align:center}
+.ask .alt a{color:var(--sun);text-decoration:none}
+.contact-card{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:36px}
+.cc{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px}
+.cc b{display:block;font-family:'Fredoka',sans-serif;font-size:13px;letter-spacing:.08em;color:var(--coral);font-weight:600}
+.cc a,.cc span{display:block;margin-top:8px;font-size:16px;font-weight:800;text-decoration:none;line-height:1.45;word-break:break-word}
+footer{background:var(--ink);color:rgba(255,255,255,.72);padding:44px 0}
+.foot{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center}
+.foot nav{display:flex;flex-wrap:wrap;gap:18px;font-size:14px;font-weight:700}
+.foot nav a{text-decoration:none;color:rgba(255,255,255,.72)}
+.foot nav a:hover{color:var(--sun)}
+.legal{margin:26px 0 0;font-size:12.5px;line-height:1.7;color:rgba(255,255,255,.5);max-width:82ch}
+@media (max-width:900px){
+ .hero-grid{grid-template-columns:1fr;text-align:center;justify-items:center;padding:40px 0 52px}
+ .hero-p{margin-inline:auto}
+ .hero-cta{justify-content:center}
+ .rescue-grid{grid-template-columns:1fr}
+ .why-grid{grid-template-columns:1fr;justify-items:start}
+}
+@media (max-width:720px){
+ .wrap{width:calc(100% - 32px)}
+ .menu{display:none}
+ .btn{padding:14px 20px;font-size:14px}
+ .hero-cta .btn{width:100%}
+ .zipbar .btn{padding:11px 14px;font-size:12px}
+ .note .wrap{align-items:flex-start}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="dog" viewBox="0 0 120 120"><path fill="#141018" d="M30 14h5v5h-5zM35 14h5v5h-5zM40 14h5v5h-5zM75 14h5v5h-5zM80 14h5v5h-5zM85 14h5v5h-5zM25 19h5v5h-5zM45 19h5v5h-5zM70 19h5v5h-5zM90 19h5v5h-5zM25 24h5v5h-5zM40 24h5v5h-5zM75 24h5v5h-5zM90 24h5v5h-5zM40 29h5v5h-5zM45 29h5v5h-5zM50 29h5v5h-5zM55 29h5v5h-5zM60 29h5v5h-5zM65 29h5v5h-5zM70 29h5v5h-5zM75 29h5v5h-5zM30 34h5v5h-5zM35 34h5v5h-5zM80 34h5v5h-5zM85 34h5v5h-5zM25 39h5v5h-5zM90 39h5v5h-5zM25 44h5v5h-5zM90 44h5v5h-5zM20 49h5v5h-5zM95 49h5v5h-5zM20 54h5v5h-5zM40 54h5v5h-5zM75 54h5v5h-5zM95 54h5v5h-5zM20 59h5v5h-5zM40 59h5v5h-5zM45 59h5v5h-5zM70 59h5v5h-5zM75 59h5v5h-5zM95 59h5v5h-5zM20 64h5v5h-5zM55 64h5v5h-5zM60 64h5v5h-5zM95 64h5v5h-5zM20 69h5v5h-5zM55 69h5v5h-5zM60 69h5v5h-5zM95 69h5v5h-5zM25 74h5v5h-5zM50 74h5v5h-5zM65 74h5v5h-5zM90 74h5v5h-5zM30 79h5v5h-5zM45 79h5v5h-5zM70 79h5v5h-5zM85 79h5v5h-5zM35 84h5v5h-5zM80 84h5v5h-5zM40 89h5v5h-5zM45 89h5v5h-5zM50 89h5v5h-5zM55 89h5v5h-5zM60 89h5v5h-5zM65 89h5v5h-5zM70 89h5v5h-5zM75 89h5v5h-5z"/><path fill="#B8662F" d="M30 19h5v5h-5zM35 19h5v5h-5zM40 19h5v5h-5zM75 19h5v5h-5zM80 19h5v5h-5zM85 19h5v5h-5zM30 24h5v5h-5zM35 24h5v5h-5zM80 24h5v5h-5zM85 24h5v5h-5z"/><path fill="#C8743A" d="M40 34h5v5h-5zM45 34h5v5h-5zM50 34h5v5h-5zM65 34h5v5h-5zM70 34h5v5h-5zM75 34h5v5h-5zM30 39h5v5h-5zM35 39h5v5h-5zM40 39h5v5h-5zM45 39h5v5h-5zM50 39h5v5h-5zM65 39h5v5h-5zM70 39h5v5h-5zM75 39h5v5h-5zM80 39h5v5h-5zM85 39h5v5h-5zM30 44h5v5h-5zM35 44h5v5h-5zM40 44h5v5h-5zM45 44h5v5h-5zM50 44h5v5h-5zM65 44h5v5h-5zM70 44h5v5h-5zM75 44h5v5h-5zM80 44h5v5h-5zM85 44h5v5h-5zM25 49h5v5h-5zM30 49h5v5h-5zM35 49h5v5h-5zM40 49h5v5h-5zM45 49h5v5h-5zM50 49h5v5h-5zM65 49h5v5h-5zM70 49h5v5h-5zM75 49h5v5h-5zM80 49h5v5h-5zM85 49h5v5h-5zM90 49h5v5h-5zM25 54h5v5h-5zM30 54h5v5h-5zM35 54h5v5h-5zM50 54h5v5h-5zM55 54h5v5h-5zM60 54h5v5h-5zM65 54h5v5h-5zM80 54h5v5h-5zM85 54h5v5h-5zM90 54h5v5h-5zM25 59h5v5h-5zM30 59h5v5h-5zM35 59h5v5h-5zM50 59h5v5h-5zM55 59h5v5h-5zM60 59h5v5h-5zM65 59h5v5h-5zM80 59h5v5h-5zM85 59h5v5h-5zM90 59h5v5h-5zM25 64h5v5h-5zM30 64h5v5h-5zM35 64h5v5h-5zM80 64h5v5h-5zM85 64h5v5h-5zM90 64h5v5h-5zM25 69h5v5h-5zM30 69h5v5h-5zM85 69h5v5h-5zM90 69h5v5h-5zM30 74h5v5h-5zM35 74h5v5h-5zM80 74h5v5h-5zM85 74h5v5h-5z"/><path fill="#FBF7F0" d="M55 34h5v5h-5zM60 34h5v5h-5zM55 39h5v5h-5zM60 39h5v5h-5zM55 44h5v5h-5zM60 44h5v5h-5zM55 49h5v5h-5zM60 49h5v5h-5z"/><path fill="#FFFFFF" d="M45 54h5v5h-5zM70 54h5v5h-5z"/><path fill="#F4E8DA" d="M40 64h5v5h-5zM45 64h5v5h-5zM50 64h5v5h-5zM65 64h5v5h-5zM70 64h5v5h-5zM75 64h5v5h-5zM35 69h5v5h-5zM40 69h5v5h-5zM45 69h5v5h-5zM50 69h5v5h-5zM65 69h5v5h-5zM70 69h5v5h-5zM75 69h5v5h-5zM80 69h5v5h-5zM35 74h5v5h-5zM40 74h5v5h-5zM45 74h5v5h-5zM55 74h5v5h-5zM60 74h5v5h-5zM70 74h5v5h-5zM75 74h5v5h-5zM80 74h5v5h-5zM35 79h5v5h-5zM40 79h5v5h-5zM50 79h5v5h-5zM55 79h5v5h-5zM60 79h5v5h-5zM65 79h5v5h-5zM75 79h5v5h-5zM80 79h5v5h-5zM40 84h5v5h-5zM45 84h5v5h-5zM50 84h5v5h-5zM55 84h5v5h-5zM60 84h5v5h-5zM65 84h5v5h-5zM70 84h5v5h-5zM75 84h5v5h-5z"/><path fill="#FF4D8A" d="M14 79h92v15h-92z"/></symbol>
+ <symbol id="chk" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="nav">
+ <div class="wrap nav-in">
+  <a class="brand" href="#top" aria-label="Tethered Pet home"><svg width="40" height="40" shape-rendering="crispEdges" aria-hidden="true"><use href="#dog"/></svg><span class="wordmark">TETHERED<span>PETS</span></span></a>
+  <nav class="menu" aria-label="Main">
+   <a class="pill" href="#how">HOW IT WORKS</a>
+   <a class="pill" href="#rescues">FOR RESCUES</a>
+   <a class="pill" href="#contact">CONTACT</a>
+  </nav>
+  <a class="btn btn-sun btn-sm" href="#rescues">PARTNER WITH US</a>
+ </div>
+</header>
+
+<main id="top">
+ <section class="hero" style="padding:0">
+  <div class="wrap hero-grid">
+   <div>
+    <div class="eyebrow"><span class="tick"><svg width="12" height="12" style="color:#1B2440"><use href="#chk"/></svg></span>NEW &middot; STARTING IN SOUTHERN CALIFORNIA</div>
+    <h1>One rescue dog.<br>Their whole story.</h1>
+    <p class="hero-p">Tethered Pet features adoptable dogs from shelters and rescues, one at a time. Each story is written from the rescue's own public listing, and when you're ready to adopt, you go straight to the rescue.</p>
+    <div class="hero-cta">
+     <a class="btn btn-sun" href="#rescues">FOR SHELTERS &amp; RESCUES</a>
+     <a class="btn btn-ghost" href="#how">HOW IT WORKS</a>
+    </div>
+   </div>
+   <div class="stage">
+    <svg class="pup" shape-rendering="crispEdges" role="img" aria-label="Tethered Pet's pixel dog mascot"><use href="#dog"/></svg>
+    <div class="zipwrap">
+     <div class="zip-kicker">ARE WE IN YOUR AREA YET?</div>
+     <form class="zipbar" id="zipform" autocomplete="off" novalidate>
+      <label class="sr" for="zip">ZIP code</label>
+      <input id="zip" name="zip" type="text" inputmode="numeric" maxlength="5" placeholder="Enter your ZIP code">
+      <button class="btn btn-dark btn-sm" type="submit">CHECK</button>
+     </form>
+     <div class="zip-err" id="ziperr" role="alert" hidden>Enter a 5-digit ZIP code</div>
+     <div class="zip-res" id="zipres" aria-live="polite" hidden></div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <div class="note">
+  <div class="wrap">
+   <svg width="34" height="34" shape-rendering="crispEdges" aria-hidden="true"><use href="#dog"/></svg>
+   <p>We're brand new. Tethered Pet is just getting started, and we're working with our first shelters and rescues now. The first featured dogs are on their way.</p>
+  </div>
+ </div>
+
+ <section id="how">
+  <div class="wrap">
+   <div class="kicker">HOW IT WORKS</div>
+   <h2>We tell the story.<br>The rescue does the adoption.</h2>
+   <p class="lede">Tethered Pet is a connector, not an adoption agency. We never take custody of an animal, never screen adopters and never collect adoption fees. Every adoption is completed directly with the shelter or rescue.</p>
+   <div class="steps">
+    <div class="step"><div class="n">1</div><h3>A rescue shares a dog</h3><p>A shelter or rescue tells us which dog could use more eyes. We write the feature from their public listing, with their photos.</p></div>
+    <div class="step"><div class="n">2</div><h3>One dog at a time</h3><p>We feature a single adoptable dog and follow their story over several days, so people get to know who they really are.</p></div>
+    <div class="step"><div class="n">3</div><h3>Adopt through the rescue</h3><p>If you're interested, you go straight to the rescue that cares for the dog. Their process, their decision, their adoption.</p></div>
+   </div>
+  </div>
+ </section>
+
+ <section class="why">
+  <div class="wrap why-grid">
+   <div class="why-art"><svg width="110" height="110" shape-rendering="crispEdges" aria-hidden="true"><use href="#dog"/></svg></div>
+   <div>
+    <div class="kicker">WHY WE STARTED</div>
+    <h2>Two rescue dogs, one idea.</h2>
+    <p class="lede">Tethered Pet was started by Yifu Pan, who has adopted dogs and is now the proud owner of two rescue dogs. Shelters and rescues are full of dogs whose personalities never come through in a single photo. We want to give each of them a little more time in the spotlight, and send the people who fall for them straight to the rescue.</p>
+   </div>
+  </div>
+ </section>
+
+ <section class="rescue" id="rescues">
+  <div class="wrap rescue-grid">
+   <div>
+    <div class="kicker" style="color:var(--mint)">FOR SHELTERS &amp; RESCUES</div>
+    <h2>Let us help tell your dogs' stories.</h2>
+    <p class="lede">We're looking for our first partner shelters and rescues, starting in the San Gabriel Valley and greater Los Angeles and growing from there.</p>
+    <ul class="perks">
+     <li><svg width="18" height="18" style="color:#7CF3C8"><use href="#chk"/></svg>Free for your organization. No cost, and you can stop any time.</li>
+     <li><svg width="18" height="18" style="color:#7CF3C8"><use href="#chk"/></svg>Your photos stay yours. We only use what you give us permission to use.</li>
+     <li><svg width="18" height="18" style="color:#7CF3C8"><use href="#chk"/></svg>We write each feature from your public listing, so you don't have to write anything new.</li>
+     <li><svg width="18" height="18" style="color:#7CF3C8"><use href="#chk"/></svg>Interested adopters go straight to you, through your own adoption process.</li>
+     <li><svg width="18" height="18" style="color:#7CF3C8"><use href="#chk"/></svg>We never take custody, screen adopters or collect adoption fees.</li>
+    </ul>
+   </div>
+   <div class="ask">
+    <div class="kicker">GETTING STARTED</div>
+    <h3>What we'd ask of you</h3>
+    <ol>
+     <li>Which dog or dogs you'd like featured, with a link to their listing.</li>
+     <li>Permission to use your photos and description.</li>
+     <li>A quick note when a dog is adopted, so we can update the feature the same day.</li>
+    </ol>
+    <a class="btn btn-sun" href="mailto:ypan@tetheredpets.com?subject=Featuring%20our%20dogs%20on%20Tethered%20Pet">EMAIL YIFU</a>
+    <p class="alt">or call <a href="tel:+18184451984">818-445-1984</a>. Happy to talk any time that works for you.</p>
+   </div>
+  </div>
+ </section>
+
+ <section id="contact">
+  <div class="wrap">
+   <div class="kicker">CONTACT</div>
+   <h2>Say hello.</h2>
+   <p class="lede">Questions, a dog you'd like us to feature, or just want to know more? Reach out directly.</p>
+   <div class="contact-card">
+    <div class="cc"><b>FOUNDER</b><span>Yifu Pan</span></div>
+    <div class="cc"><b>EMAIL</b><a href="mailto:ypan@tetheredpets.com">ypan@tetheredpets.com</a></div>
+    <div class="cc"><b>PHONE</b><a href="tel:+18184451984">818-445-1984</a></div>
+    <div class="cc"><b>MAIL</b><span>177 N Primrose Ave<br>Monrovia, CA 91016</span></div>
+   </div>
+  </div>
+ </section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="foot">
+   <a class="brand" href="#top" aria-label="Tethered Pet home"><svg width="40" height="40" shape-rendering="crispEdges" aria-hidden="true"><use href="#dog"/></svg><span class="wordmark">TETHERED<span>PETS</span></span></a>
+   <nav aria-label="Footer">
+    <a href="#how">How it works</a>
+    <a href="#rescues">For rescues</a>
+    <a href="#contact">Contact</a>
+   </nav>
+  </div>
+  <p class="legal">Tethered Pet is not an animal shelter, rescue or adoption agency and holds no adoption license. We never take custody of animals, screen adopters or collect adoption fees. Every adoption is completed directly with the shelter or rescue caring for the animal. &copy; 2026 Tethered Pet &middot; 177 N Primrose Ave, Monrovia, CA 91016.</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ var f=document.getElementById('zipform'),err=document.getElementById('ziperr'),res=document.getElementById('zipres');
+ var mail='<a href="mailto:ypan@tetheredpets.com">ypan@tetheredpets.com</a>';
+ f.addEventListener('submit',function(e){
+  e.preventDefault();
+  var v=(document.getElementById('zip').value||'').trim();
+  if(!/^\d{5}$/.test(v)){err.hidden=false;res.hidden=true;return;}
+  err.hidden=true;
+  var p=parseInt(v.slice(0,3),10);
+  var socal=(p>=900&&p<=928)||p===930;
+  res.innerHTML=socal
+   ? 'Good news: '+v+' is in Southern California, where we\'re starting. We\'re lining up our first partner rescues now, beginning with the San Gabriel Valley and Los Angeles County. Know a rescue near you? Point them to '+mail+'.'
+   : 'Not yet. We\'re starting in Southern California and growing outward from there, so '+v+' isn\'t covered yet. If you know a rescue that would like to be featured, they can reach us at '+mail+'.';
+  res.hidden=false;
+ });
+})();
+</script>
+</body>
+</html>
